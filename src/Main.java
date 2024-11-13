@@ -5,6 +5,6 @@ public class Main {
         int ticket_amount = 62140;
         int bonus = 20;
         int bonus_mile = ticket_amount / bonus;
-        System.out.println("Начислено бонусных миль  " + bonus_mile);
+        System.out.println("Начислено бонусных миль:  " + bonus_mile);
     }
 }
