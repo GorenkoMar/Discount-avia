@@ -3,9 +3,10 @@
 public class Main {
 
   public static void main(String[] args) {
-    int ticketAmount = 62140;
-    int bonus = 20;
-    int bonusMile = ticketAmount / bonus;
-    System.out.println("Начислено бонусных миль:  " + bonusMile);
+    BonusMilesService service = new BonusMilesService();
+    int price = 77_777;
+    int miles = service.calculate(price);
+
+    System.out.println("Начислено бонусных миль:  " + miles);
   }
 }
